@@ -61,7 +61,7 @@ def is_a_word(word):
     return False
 
 the_word = get_a_word()
-print(the_word)
+
 def print_word(word, color_sequence):
     for row in range(len(BLOCKED_LETTERS['A'].split('\n'))):
         for i,letter in enumerate(word):
@@ -76,7 +76,7 @@ while score < 6:
     score += 1
 
     while True:
-        guess = input(">> ").lower()
+        guess = input(f"Enter your guess {score}: ").lower()
         if len(guess) != len(the_word):
             print(f"Incorrect length. It should be {len(the_word)} letters.")
         elif is_a_word(guess):
