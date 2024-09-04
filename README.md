@@ -13,3 +13,5 @@ Console based Wordle game
  - Run wordle.py (No Dependencies)
  - Run worlde.exe (Check latest release!)
 
+# Credits
+ - Ascii art for text from [here](https://patorjk.com/software/taag/#p=display&f=Big&t=A)
